@@ -3,5 +3,5 @@ arrayString = string.split(" ")
 #utilizing each
 arrayResult=[]
 arrayString.each {|x| arrayResult.push(x.reverse)}
-arrayResult
+arrayResult.join(" ")
 end
