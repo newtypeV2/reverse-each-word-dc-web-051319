@@ -6,5 +6,5 @@ arrayString = string.split(" ")
 #  arrayResult.join(" ")
 
 #utilizing collect
-arrayString.collect {|x| x.reverse}
+arrayString.collect {|x| x.reverse}.join(" ")
 end
