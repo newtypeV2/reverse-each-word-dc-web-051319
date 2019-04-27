@@ -1,4 +1,7 @@
 reverse_each_word(string)
-arrayString = string.chars
-
+arrayString = string.split(" ")
+#utilizing each
+arrayResult=[]
+arrayString.each {|x| arrayResult.push(x.reverse)}
+arrayResult
 end
